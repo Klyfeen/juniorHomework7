@@ -13,7 +13,8 @@ namespace juniorHomework7
             
             Console.Write("Введите количество золота в вашем распоряжении: ");
             gold = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Мы можем конвертировать ваше золото в кристаллы!\n\n1 кристалл = 100 золота\n");
+            Console.WriteLine("Мы можем конвертировать ваше золото в кристаллы!");
+            Console.WriteLine("1 кристалл = 100 золота");
             Console.Write("Сколько кристаллов вы хотите купить: ");
             purchaseCrystals = Convert.ToInt32(Console.ReadLine());
 
