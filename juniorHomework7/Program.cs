@@ -8,7 +8,7 @@ namespace juniorHomework7
         {
             int crystals = 0;
             int gold;
-            int crystalsPrice = 100;
+            int crystalPrice = 100;
             int purchaseCrystals;
             
             Console.Write("Введите количество золота в вашем распоряжении: ");
