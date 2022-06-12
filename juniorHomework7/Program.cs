@@ -18,7 +18,7 @@ namespace juniorHomework7
             Console.Write("Сколько кристаллов вы хотите купить: ");
             purchaseCrystals = Convert.ToInt32(Console.ReadLine());
 
-            gold -= purchaseCrystals * crystalsPrice;
+            gold -= purchaseCrystals * crystalPrice;
             crystals += purchaseCrystals;
             Console.WriteLine($"Теперь у вас: {crystals} кристаллов и {gold} золота!");
         }
